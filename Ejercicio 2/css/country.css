@@ -1,0 +1,41 @@
+header {
+    justify-content: space-between;
+}
+
+footer {
+    position: sticky;
+}
+
+.btn,
+.btn:hover {
+    background-color: #8fafa9;
+}
+
+.card-body {
+    border-top: 2px solid #e7e6e6;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.card img {
+    padding: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-body {
+    flex: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card.min-content {
+    height: min-content;
+}

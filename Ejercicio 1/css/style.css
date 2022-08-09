@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100vh;
+    background-color: #eeeeee;
+}
+
+h1 {
+    font-family: arial;
+}
+
+header, footer {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #F470C3;
+}
+
+header img {
+    height: 60px;
+}
+
+section{
+    margin: 50px 100px;
+}
+
+.info-container div {
+    padding: 0 10px;
+}
+.container{
+    gap: 30px;
+}
+.container img{
+    width: 150px;
+    align-self: center;
+    margin: 15px 0;
+}

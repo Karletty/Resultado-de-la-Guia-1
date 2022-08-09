@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #5D737E;
+}
+
+header img {
+    margin-right: 20px;
+}
+
+section {
+    margin: 50px 100px;
+    gap: 50px;
+}
+
+span {
+    color: #848484;
+}
+
+.map-container {
+    max-width: 500px;
+}
+
+.map {
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.29);
+}
+
+.info-container {
+    text-align: justify;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+p{
+    text-align: justify;
+}
